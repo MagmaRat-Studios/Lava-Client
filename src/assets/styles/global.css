@@ -1,0 +1,49 @@
+*{
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+.app {
+	--primaryColor: white;
+	--secondaryColor: black;
+	--hoverColor: rgb(243, 243, 243);
+}
+
+.app p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+input {
+	color: var(--secondaryColor);
+}
+
+.darkMode {
+	background: var(--hoverColor);
+	color: white !important;
+	--hoverColor: rgb(14, 14, 14);
+	--primaryColor: rgb(7, 7, 7);
+	--secondaryColor: white;
+}
+.darkMode .icon {
+	filter: invert(1);
+}
+
+.darkMode a {
+	color: white;
+}
+
+button {
+	background: none;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+button:hover {
+	background: var(--hoverColor);
+}
+
+
+

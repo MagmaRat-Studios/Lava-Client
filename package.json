@@ -1,0 +1,49 @@
+{
+	"name": "Lava-Client",
+	"productName": "Lava Client",
+	"appId": "Lava-Client",
+	"license": "MIT",
+	"author": {
+		"name": "MagmaRat Studios",
+		"email": "magmarat.business@gmail.com"
+	},
+	"description": "A Simple App Store from MagmaRat Studios",
+	"version": "0.0.4",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MagmaRat-Studios/Lava-Client.git"
+	},
+	"private": true,
+	"scripts": {
+		"start": "vue-cli-service electron:serve",
+		"web-serve": "vue-cli-service serve",
+		"web-build": "vue-cli-service build",
+		"build": "vue-cli-service electron:build",
+		"dev": "vue-cli-service electron:serve",
+		"postinstall": "electron-builder install-app-deps",
+		"postuninstall": "electron-builder install-app-deps"
+	},
+	"main": "background.js",
+	"dependencies": {
+		"core-js": "^3.18.3",
+		"downloads-folder": "latest",
+		"electron-settings": "^4.0.2",
+		"electron-updater": "^4.3.9",
+		"node-downloader-helper": "^1.0.19",
+		"vue": "^2.6.14",
+		"vue-router": "^3.5.2",
+		"vuex": "^3.6.2"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.5.14",
+		"@vue/cli-plugin-router": "~4.5.14",
+		"@vue/cli-plugin-vuex": "~4.5.14",
+		"@vue/cli-service": "~4.5.14",
+		"electron": "^15.3.0",
+		"electron-devtools-installer": "^3.2.0",
+		"sass": "^1.43.3",
+		"sass-loader": "^10",
+		"vue-cli-plugin-electron-builder": "~2.1.1",
+		"vue-template-compiler": "^2.6.14"
+	}
+}
