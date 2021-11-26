@@ -5,6 +5,7 @@
 <a href="https://www.producthunt.com/posts/electron-app-store?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-electron-app-store" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=316563&theme=dark" alt="Electron App Store - A cross platform, open source app store for Electron.js apps | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 -->
 A Cross Platform Client from MagmaRat Studios
+Note: Uses the Electron App Store MIT project as a framework.
 ## Features
 - Browse Apps from 10+  Categories
 - Search for apps by keyword and app name
